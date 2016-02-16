@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title></title>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="disp.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="lastupdated">
+      </div>
+      <br>
+      <div>
+	Information about GPUs
+	<table id="gputb" class="table table-bordered">
+	  <thead>
+	    <tr><th>Server</th><th>Owner</th><th>GPU ID</th><th>GPU Name</th><th>Memory Util. Rate</th><th>Used Memory</th><th>Total Memory</th><th>GPU Util. Rate</th></tr>
+	  </thead>
+	  <tbody>
+	  </tbody>
+	</table>
+      </div>
+      <br>
+      <div>
+	Information about processes using any GPU
+	<table id="processtb" class="table table-bordered">
+	  <thead>
+	    <tr><th>Server</th><th>Process ID</th><th>GPU ID</th><th>User</th><th>Starting Time</th><th>Used Memory</th></tr>
+	  </thead>
+	  <tbody>
+	  </tbody>
+	</table>
+      </div>
+      <br>
+    </div>
+  </body>
+</html>
